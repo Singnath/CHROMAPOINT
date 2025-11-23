@@ -12,7 +12,6 @@ env/
 .ipynb_checkpoints/
 
 # Data (local only)
-data/
 vimeo_septuplet/
 *.mp4
 *.avi

@@ -9,3 +9,4 @@ def ssim_cut(prev_rgb, curr_rgb, thresh=0.5):
     den = (prev**2).mean()**0.5 * (curr**2).mean()**0.5 + 1e-6
     score = num / den
     return score < thresh
+#

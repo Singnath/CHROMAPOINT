@@ -1,4 +1,3 @@
-# src/train/train_image.py
 import os, argparse
 import torch
 from torch.utils.data import DataLoader

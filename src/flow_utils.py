@@ -53,3 +53,4 @@ class FlowEstimator:
         fwd = cv2.calcOpticalFlowFarneback(prev, curr, None, 0.5, 3, 15, 3, 5, 1.2, 0)
         bwd = cv2.calcOpticalFlowFarneback(curr, prev, None, 0.5, 3, 15, 3, 5, 1.2, 0)
         return fwd.astype(np.float32), bwd.astype(np.float32)
+#

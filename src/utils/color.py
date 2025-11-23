@@ -1,4 +1,3 @@
-# src/utils/color.py
 import numpy as np
 from skimage import color as ski_color
 import torch

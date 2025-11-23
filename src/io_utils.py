@@ -25,3 +25,4 @@ def video_writer(frames_rgb, out_path, fps=30):
         process.stdin.write(f.tobytes())
     process.stdin.close()
     process.wait()
+#

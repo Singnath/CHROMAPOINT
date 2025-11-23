@@ -24,3 +24,5 @@ class RollingLabStabilizer:
         return L, np.stack([a,b], axis=-1).astype(np.float32)
 
     def reset(self): self.hist = []
+
+#

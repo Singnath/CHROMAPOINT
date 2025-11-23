@@ -1,4 +1,3 @@
-# src/train/validate_image.py
 import os, re, glob, json, argparse
 import numpy as np
 import torch
